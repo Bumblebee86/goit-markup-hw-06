@@ -56,6 +56,34 @@
                             <use href="./images/icon.svg#icon-close"></use>
                         </svg>
                     </button>
+                    <form name="callback">
+                        <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+                        <label for="form-label">
+                            <span class="name-label">Ім'я</span>
+                            <input type="email" name="email" class="form-input">
+                        </label>
+                    
+                        <label for="form-label">
+                            <span class="name-label">Телефон</span>
+                            <input type="tel" name="tel" class="form-input">
+                        </label>
+                        
+                        <label for="form-label">
+                            <span class="name-label">Пошта</span>
+                            <input type="tel" name="tel" class="form-input">
+                        </label>
+
+                        <label for="form-label">
+                            <span class="name-label">Коментар</span>
+                            <textarea name="comment" rows="3" placeholder="Введіть текст" class="comment-input"></textarea>
+                        </label>
+
+                        <input type="checkbox" name="policy" id="policy">
+                        <label for="policy">
+                            Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a>
+                        </label>
+                        <button type="submit" class="button-send">Отправить</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -363,6 +391,17 @@
                     </li>
                 </ul>
             </div>
+            <form class="form-footer">
+                <label class="label-footer">
+                    <p class="sign-up">Підпишіться на розсилку</p>
+                    <input class="input-footer" type="text" name="E-mail" placeholder="E-mail" />
+                </label>
+                <button type="submit" class="button-footer">Підписатися
+                    <svg class="icon-send-footer" width="24" height="24">
+                        <use href="./images/icon.svg#icon-send"></use>
+                    </svg>
+                </button>
+              </form>
         </div>
     </footer>
     <script src="./js/modal.js"></script>
